@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.outline {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 50%;
+  padding: 20px;
+  margin-top: 200px;
+  background-color: darkgray;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  min-height: 60px;
+  background-color: lightgray;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.button {
+  min-width: 100px;
+  min-height: 30px;
+  border-radius: 10px;
+}
